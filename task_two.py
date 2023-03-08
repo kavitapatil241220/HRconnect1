@@ -4,8 +4,6 @@ to 110 AND who's salary is > 4200.
 """
 import csv
 import datetime
-
-from typing import Dict
 from pprint import pprint
 
 
@@ -25,4 +23,4 @@ def getdetails(filename:str,value:int)->Dict:
 
 if __name__ == "__main__":
     EmployeeData = []
-    pprint(getdetails("employees.csv",4200))
+    pprint(getdetails("employees.csv",4200)) 
